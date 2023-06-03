@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.jumbotron {
+  background-color: #fff;a
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.img-thumbnail {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  border: none;
+}
+
+.caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 8px;
+  font-size: 14px;
+}
+
+.link {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.link a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #333;
+}
+
+.link a:hover {
+  color: #555;
+}
+
+blockquote {
+  border-left: 4px solid #333;
+  padding-left: 15px;
+  margin: 20px 0;
+  font-style: italic;
+}
